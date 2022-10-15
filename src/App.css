@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+/* Custom styles */
+.hero{
+  padding-top: 50px;
+}
+
+.p-row{
+  padding-top: 50px;
+}
+
+.p-container{
+  padding-bottom: 50px;
+}
+
+.faq{
+  padding: 0px 100px;
+}
+
+.navs1{
+  margin-left: 15px;
+  text-decoration: none;
+  color: #fff
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.text-left{
+  text-align: left !important;
+}
+
+.menu{
+  padding: 10px 0px;
+  background-color: #fff;
+}
+
+.bg-menu{
+  background-color: #303952;
+}

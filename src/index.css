@@ -12,4 +12,18 @@ code {
     monospace;
 }
 
+.bg-color-primary{
+  background-color: #011627;
+}
 
+.bg-color-secondary{
+  background-color: #2ec4b6;
+}
+
+.text-primary{
+  color: #011627;
+}
+
+.text-secondary{
+  color: #2ec4b6;
+}
