@@ -1,6 +1,8 @@
 import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom'
 
 import './App.css';
+import './assets/files/custom-css.css'
+
 import Home from './pages/Home/home'
 import About from './pages/About/about'
 import Tujuan from './pages/Tujuan/tujuan'
@@ -12,9 +14,9 @@ function App() {
     return (
         <> <Router>
             {/* Navbar */}
-            <div className='bg-menu'>
+            <div className='bg-menu bg-color-primary'>
                 <Navbar collapseOnSelect="collapseOnSelect" expand="lg" sticky="top" className='no-padding'>
-                    <Container className='menu bg-menu'>
+                    <Container className='menu bg-menu bg-color-primary p-3'>
                         <Navbar.Brand className='text-white'>Nama Aplikasi</Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                         <Navbar.Collapse id="responsive-navbar-nav">

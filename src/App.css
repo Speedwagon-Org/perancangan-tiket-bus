@@ -38,26 +38,11 @@
 }
 
 /* Custom styles */
-.hero{
-  padding-top: 50px;
-}
-
-.p-row{
-  padding-top: 50px;
-}
-
-.p-container{
-  padding-bottom: 50px;
-}
-
-.faq{
-  padding: 0px 100px;
-}
-
 .navs1{
   margin-left: 15px;
   text-decoration: none;
-  color: #fff
+  color: #fff;
+  padding: 4px 0rem;
 }
 
 .no-padding {
@@ -75,4 +60,20 @@
 
 .bg-menu{
   background-color: #303952;
+}
+
+.bg-color-primary{
+  background-color: #002029;
+}
+
+.bg-color-secondary{
+  background-color: #00607a;
+}
+
+.text-primary{
+  color: #002029;
+}
+
+.text-secondary{
+  color: #00607a;
 }

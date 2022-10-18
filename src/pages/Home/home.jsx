@@ -1,24 +1,31 @@
 import {Container, Row, Col, Button, Accordion } from "react-bootstrap"
 
+import img_bus from "../../assets/img/01.png"
+import img_wisata from "../../assets/img/02.png"
+import img_lokasi1 from "../../assets/img/03.png"
+import img_lokasi2 from "../../assets/img/04.png"
+import img_lokasi3 from "../../assets/img/05.png"
+import img_lokasi4 from "../../assets/img/06.png"
+
 export default function home() {
     return (
-        <Container className='p-container'>
+        <Container>
             <div>
                 {/*Bagian Hero*/}
-                <Row className='p-row'>
-                    <Col>
+                <Row className='py-5 align-items-center'>
+                    <Col className='py-5'>
                     <div className='text-center'>
-                        <img src="https://via.placeholder.com/500x350" alt="site banner"/>
-                        </div>
+                        <img src={img_bus} alt="site banner"/>
+                    </div>
                     </Col>
-                    <Col className='mt-5'>
-                        <h2>Lebih Mudah Berpergian Bersama Kami!</h2>
-                        <p className=''>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <Button variant="info">Call To Action</Button>
+                    <Col className='px-4'>
+                        <h1 className='w-md-75'>Lebih Mudah Berpergian Bersama Kami!</h1>
+                        <p className='w-md-75'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <Button variant="primary text-white px-4 py-2">Daftar Sekarang</Button>
                     </Col>
                 </Row>
                 {/*Bagian List Loket Terdekat*/}
-                <Row className='p-row'>
+                <Row className='py-5'>
                     <h2 className='text-center'>Heading - Loket terdekat dengan lokasi</h2>
                     <p className='text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <Row>
@@ -47,36 +54,36 @@ export default function home() {
                             <img src="https://via.placeholder.com/125x125" alt="site banner"/>
                         </Col>
                     </Row>
-                    <a className='mt-3 text-center'>Lihat selengkapnya</a>
+                    <a href="#/" className='mt-3 text-center'>Lihat selengkapnya</a>
                 </Row>
                 {/*Bagian Tempat Yang Sering Dikunjungi*/}
-                <Row className='p-row'>
+                <Row className='py-5 align-items-center'>
                     <Col>
-                        <h3>Heading - Menampilkan 4 tempat yang sering dikunjungi</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h1 className='w-md-75'>Kunjungi Tempat Wisata Populer Saat Ini!</h1>
+                        <p className='w-md-75'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <Row>
                             <Col className='mt-3 text-center'>
-                                <img src="https://via.placeholder.com/200x200" alt="site banner"/>
+                                <img src={img_lokasi1} alt="site banner" className='w-50 h-auto'/>
                             </Col>
                             <Col className='mt-3 text-center'>
-                                <img src="https://via.placeholder.com/200x200" alt="site banner"/>
+                                <img src={img_lokasi2} alt="site banner" className='w-50 h-auto'/>
                             </Col>
                         </Row>
                         <Row>
                             <Col className='mt-3 text-center'>
-                                <img src="https://via.placeholder.com/200x200" alt="site banner"/>
+                                <img src={img_lokasi3} alt="site banner" className='w-50 h-auto'/>
                             </Col>
                             <Col className='mt-3 text-center'>
-                                <img src="https://via.placeholder.com/200x200" alt="site banner"/>
+                                <img src={img_lokasi4} alt="site banner" className='w-50 h-auto'/>
                             </Col>
                         </Row>
                     </Col>
                     <Col className='mt-3 text-center mx-auto'>
-                        <img src="https://via.placeholder.com/300x250" alt="site banner"/>
+                        <img src={img_wisata} alt="site banner"/>
                     </Col>
                 </Row>
                 {/*Bagian 4 Keunggulan Menggunakan Kita*/}
-                <Row className='p-row'>
+                <Row className='py-5'>
                     <h2 className='text-center'>Heading - Memberitau 4 keuntungan utama menggunakan kita</h2>
                     <p className='text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <Row>
@@ -95,7 +102,7 @@ export default function home() {
                     </Row>
                 </Row>
                 {/*Bagian FAQ*/}
-                <Row className='p-row'>
+                <Row className='py-5'>
                     <h2 className='text-center'>Heading - FAQ</h2>
                     <p className='text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <div className='mt-3 faq'>

@@ -8,8 +8,8 @@ export default class HeaderComponent extends Component {
     render() {
         return (
             <> 
-                <Navbar collapseOnSelect expand="lg">
-                    <Container>
+                <Navbar collapseOnSelect expand="lg" className='bg-color-primary'>
+                    <Container className='bg-color-primary'>
                         <Navbar.Brand href="#home">Nama Aplikasi</Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
